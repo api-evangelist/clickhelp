@@ -1,23 +1,83 @@
 aid: clickhelp
+
 name: ClickHelp
-description: 'ClickHelp is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://clickhelp.com/wp-content/uploads/2025/07/OG-MainPage-1.webp
+
+description: 'ClickHelp provides an AI‑powered documentation platform for technical writers and teams, offering cloud‑based authoring, single‑sourcing, white‑label branding, and a robust API for integrating documentation into applications. The service includes features such as full‑text search, translation management, analytics, and customizable workflows, targeting enterprises seeking to streamline their documentation processes.'
+
 url: https://raw.githubusercontent.com/api-evangelist/clickhelp/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
-apis: []
+- Documentation
+- AI
+- SaaS
+- Technical Writing
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/clickhelp-plans-pricing.yml
+- type: Compliance
+  url: https://clickhelp.com/trust/
+- type: Authentication
+  url: authentication/clickhelp-authentication.yml
+- type: LLMsTxt
+  url: llms/clickhelp-llms.txt
+- type: WellKnown
+  url: well-known/clickhelp-well-known.yml
+- type: Hosts
+  url: hosts/clickhelp-hosts.yml
+- type: Vendors
+  url: vendors/clickhelp-vendors.yml
+- type: TermsOfService
+  url: https://clickhelp.com/legal/terms-of-use/
+- type: StatusPage
+  url: https://status.clickhelp.com/
+- type: PrivacyPolicy
+  url: https://clickhelp.com/legal/privacy-policy/
+- type: GettingStarted
+  url: https://docs.clickhelp.com/articles/clickhelp-user-manual/getting-started
+- type: APIReference
+  url: https://docs.clickhelp.com/llms.txt
+- type: TrustCenter
+  url: security/clickhelp-trust-center.yml
+- type: DomainSecurity
+  url: security/clickhelp-domain-security.yml
 - type: Website
   url: https://clickhelp.com/
+- type: Documentation
+  url: https://docs.clickhelp.com/
+- type: Pricing
+  url: https://clickhelp.com/online-documentation-tool-pricing/
+- type: Blog
+  url: https://clickhelp.com/clickhelp-technical-writing-blog/
+- type: Support
+  url: https://clickhelp.com/support/
+
+apis: []
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 16
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

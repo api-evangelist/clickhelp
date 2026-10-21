@@ -1,0 +1,21 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.clickhelp.com/articles/clickhelp-user-manual/authentication.md
+sources:
+- https://docs.clickhelp.com/articles/clickhelp-user-manual/authentication.md
+- https://docs.clickhelp.com/articles/clickhelp-user-manual/two-factor-authentication-2fa.md
+- https://docs.clickhelp.com/articles/clickhelp-user-manual/authentication-across-documentation-sites.md
+- https://docs.clickhelp.com/articles/clickhelp-user-manual/get-api-key.md
+description: Authentication methods for ClickHelp as documented.
+schemes:
+- type: http-basic
+  name: Native ClickHelp credentials
+  evidence: This is the default authentication option, and it doesn't require any additional setup.
+  how_to_obtain: Credentials are emailed to the user when the account is created and can be changed via the User Profile.
+- type: oauth2
+  name: SSO
+  evidence: ClickHelp supports the OpenID Connect technology of single sign-on.
+  how_to_obtain: Configured through the Single Sign-On (SSO) settings; uses the identity provider's OpenID Connect flow.
+docs: https://docs.clickhelp.com/articles/clickhelp-user-manual/authentication.md
+note: 1 extracted row(s) were dropped because their quote was not on the page.

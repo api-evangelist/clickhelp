@@ -1,0 +1,535 @@
+# ClickHelp Documentation
+
+> The official ClickHelp User Manual: content authoring, collaboration, publishing, localization, portal administration, integrations, APIs, and AI-assisted documentation features. Links point to the canonical Markdown version of each page.
+
+Any page on this portal is available as Markdown by appending `.md` to its URL. The REST API is documented by the linked OpenAPI files rather than by per-endpoint pages.
+
+## Getting started
+
+- [ClickHelp User Manual — Getting Started](https://docs.clickhelp.com/articles/clickhelp-user-manual/getting-started.md): Entry points to the manual — quick start, content import, authoring — plus popular topics and external learning resources.
+- [Log in to ClickHelp](https://docs.clickhelp.com/articles/clickhelp-user-manual/log-in-to-clickhelp.md): Where to find your portal URL, the three authentication methods, and how to recover a lost password.
+- [What is ClickHelp?](https://docs.clickhelp.com/articles/clickhelp-user-manual/what-is-clickhelp.md): Portal, project, topic, and publication hierarchy, with an overview of single-sourcing, review, translation, and API features.
+- [Topic-Based Authoring](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-based-authoring.md): Why splitting a manual into small topics helps translation, reuse, partial updates, and per-topic collaboration.
+- [Basic Concepts](https://docs.clickhelp.com/articles/clickhelp-user-manual/basic-concepts.md): Glossary of portal, site, project, template, publication, topic, TOC, snippet, variable, conditional block, storage, styles, scripts, output tags.
+- [Projects vs. Publications](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-and-publication.md): How drafts differ from reader-facing snapshots, the three publication visibility levels, and what gets compiled during publishing.
+- [ClickHelp Modules](https://docs.clickhelp.com/articles/clickhelp-user-manual/clickhelp-modules.md): Which feature modules — workflow, permissions, reporting, API docs, branding, extensibility, translation — come with each pricing plan.
+- [ClickHelp AI Suite](https://docs.clickhelp.com/articles/clickhelp-user-manual/clickhelp-ai-suite.md): Paid add-on covering AnswerGenius, WriteAssist, and Ask Your Docs, with CAPs usage limits and consumption rates.
+- [Full-Text Search](https://docs.clickhelp.com/articles/clickhelp-user-manual/full-text-search.md): Quick versus portal-wide search, filtering and sorting, results grouping, typo correction, fuzzy matching, and suggested queries.
+- [Featured Snippets](https://docs.clickhelp.com/articles/clickhelp-user-manual/featured-snippets.md): Mark a topic in its properties so its content appears above the search results list.
+- [Full-Text Search: Supported Search Operators](https://docs.clickhelp.com/articles/clickhelp-user-manual/full-text-search-supported-search-operators.md): AND, OR, wildcards, quotes, minus, and parentheses with query examples and wildcard limitations.
+- [Full-Text Search Settings Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/full-text-search-settings-reference.md): Search options at portal, project/publication, and topic level, including reader filters and index exclusions.
+- [Embed ClickHelp Search into Website or Application](https://docs.clickhelp.com/articles/clickhelp-user-manual/embed-clickhelp-search-into-website-or-application.md): Iframe snippet with auto-resize script and resultTarget options for putting the portal search page on your site.
+- [Requirements and Platforms](https://docs.clickhelp.com/articles/clickhelp-user-manual/requirements-and-platforms.md): Supported browsers, the JavaScript requirement, and minimum connection speed and latency for the browser-based tool.
+- [Mobile and Tablet Devices Support](https://docs.clickhelp.com/articles/clickhelp-user-manual/mobile-and-tablet-devices-support.md): Responsive reader UI, automatic resizing of wide elements, and the attribute that disables autosizing per element.
+- [ClickHelp Keyboard Shortcuts](https://docs.clickhelp.com/articles/clickhelp-user-manual/clickhelp-keyboard-shortcuts.md): Mac and Windows key combinations for Design mode, HTML mode, File Manager, and the Home page editor.
+- [Accessibility](https://docs.clickhelp.com/articles/clickhelp-user-manual/accessibility.md): Section 508 and WCAG 2.2 Level AA conformance, and the features supporting screen readers and keyboard navigation.
+- [Documentation Hosting FAQ](https://docs.clickhelp.com/articles/clickhelp-user-manual/faq-documentation-hosting.md): Answers on built-in SaaS hosting, self-hosted WebHelp export, data center locations, backups, and offline work.
+
+## Quick start guide
+
+- [Quick Start Guide](https://docs.clickhelp.com/articles/clickhelp-user-manual/quick-start-guide.md): Tutorial path through ClickHelp basics: projects, topics, editing, content reuse, statuses, publishing, and user accounts.
+- [1. Create a Project](https://docs.clickhelp.com/articles/clickhelp-user-manual/tutorial-create-a-project.md): A project holds draft content; walkthrough of the Create Project Wizard from the Projects page.
+- [2. Create Help Topics](https://docs.clickhelp.com/articles/clickhelp-user-manual/tutorial-create-help-topics.md): Adding root and child topics, deleting sample ones, and rearranging nodes in the table of contents.
+- [3. Edit Help Topics](https://docs.clickhelp.com/articles/clickhelp-user-manual/tutorial-edit-help-topics.md): Design mode basics: inserting images, YouTube videos, topic links, web links, and a warning box.
+- [4. Reuse Content](https://docs.clickhelp.com/articles/clickhelp-user-manual/tutorial-reuse-content.md): Single-sourcing: inserting snippets and marking conditional content with output tags, then previewing the tagged output.
+- [5. Workflow Basics](https://docs.clickhelp.com/articles/clickhelp-user-manual/tutorial-workflow-basics.md): Moving topics from Draft through Under Review to Ready in bulk, and excluding a topic from publishing.
+- [6. Publish a User Manual](https://docs.clickhelp.com/articles/clickhelp-user-manual/tutorial-publish-a-user-manual.md): Creating an online publication with the Publish Project Wizard and checking how readers see it.
+- [7. Set Up Permissions](https://docs.clickhelp.com/articles/clickhelp-user-manual/tutorial-set-up-permissions.md): Creating a Power Reader account and a restricted publication that only that user can open.
+
+## Content import and migration
+
+- [Content Import and Migration](https://docs.clickhelp.com/articles/clickhelp-user-manual/content-importing-and-migration.md): Migration stages from tool selection through import to post-import cleanup, with the list of supported formats.
+- [Import Wizard Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-project-wizard-reference.md): All four wizard steps and the format-specific settings such as topic splitting and style handling.
+- [Migrate to ClickHelp](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-to-clickhelp.md): Index of per-tool migration guides for twelve authoring and knowledge base platforms.
+- [Migrate from Confluence](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-confluence.md): Direct import from Confluence Cloud, Data Center, and Server, or via exported HTML, Word, and PDF.
+- [Confluence Import Wizard Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/confluence-import-wizard.md): Credentials, edition choice, Space selection, and macro handling options on the Confluence-specific wizard pages.
+- [Import a Space from Confluence](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-a-space-from-confluence.md): Ordered steps covering portal URL, API token, Space choice, and Scroll Versions selection.
+- [Confluence Import Specifics](https://docs.clickhelp.com/articles/clickhelp-user-manual/confluence-import-specifics.md): Which entities transfer — pages, archived pages, blog posts, macros — and how Scroll Versions versions are handled.
+- [Importing Confluence Macros](https://docs.clickhelp.com/articles/clickhelp-user-manual/importing-confluence-macros.md): Macro-to-element conversion table, the two options for unsupported macros, and Excerpt handling.
+- [Migrate from RoboHelp](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-robohelp-to-clickhelp.md): Export to CHM, HTML5, Word, or PDF, then import; CHM gives the best results.
+- [Migrate from MadCap Flare](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-madcap-flare-to-clickhelp.md): Export the project as .flprjzip or zipped project files; several projects can go in at once.
+- [Import from MadCap Flare](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-madcap-flare.md): Uploading .flprjzip or .zip files and picking a Target for the imported Condition Tags.
+- [MadCap Flare Import Specifics](https://docs.clickhelp.com/articles/clickhelp-user-manual/madcap-flare-import-specifics.md): Element conversion table, unsupported element options, and how Condition Tags become including or excluding Output Tags.
+- [Migrate from Paligo](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-paligo-to-clickhelp.md): Publish to HTML, PDF, or MS Word, then run the matching ClickHelp import.
+- [Migrate from Help+Manual](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-help-manual-to-clickhelp.md): Export to CHM, WebHelp, PDF, or DOCX, then import; CHM produces the best results.
+- [Migrate from Archbee](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-archbee-to-clickhelp.md): Export to PDF and import the resulting files, the only route for Archbee content.
+- [Migrate from Zendesk](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-zendesk-to-clickhelp.md): Zendesk and Freshdesk content moves across through a PDF export followed by PDF import.
+- [Migrate from Document360](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-document360-to-clickhelp.md): Export the project as a ZIP with media files included, then import the archive.
+- [Import from Document360](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-document360.md): Uploading a zipped Document360 project and choosing which workspace to bring in.
+- [Document360 Import Specifics](https://docs.clickhelp.com/articles/clickhelp-user-manual/document360-import-specifics.md): Limitations for LaTeX, private notes, variables, snippets, glossary terms, and how workspaces map to projects.
+- [Migrate from HelpNDoc](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-helpndoc.md): Publish to CHM, HTML5, MS Word, or PDF, then import; CHM is recommended.
+- [Migrate from Author-it](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-author-it.md): Export to the Author-it Web Help output format, then import those files.
+- [Import from Author-it](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-author-it.md): Uploading Web Help output files, with encoding and external file download options.
+- [Migrate from GitBook](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-gitbook.md): Sync content to a GitHub or GitLab repository, download the Markdown archive, then import.
+- [Import from GitBook](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-gitbook.md): Uploading the zipped Markdown archive and setting encoding and external file options.
+- [GitBook Import Specifics](https://docs.clickhelp.com/articles/clickhelp-user-manual/gitbook-import-specifics.md): Conversion table for code blocks, hints, tabs, and drawings, plus what happens to unsupported blocks.
+- [Migrate from ReadMe](https://docs.clickhelp.com/articles/clickhelp-user-manual/migrate-from-readme.md): Export the ReadMe project to Markdown, then import the downloaded archive.
+- [Import from ReadMe](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-readme.md): Uploading the Markdown archive and selecting a single documentation version per import run.
+- [ReadMe Import Specifics](https://docs.clickhelp.com/articles/clickhelp-user-manual/readme-import-specifics.md): Topic order loss, supported element conversions, and why API reference pages arrive as plain topics.
+- [Import from Google Docs](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-google-docs.md): Download the document as .docx from Google Drive, then run the Word-based import.
+- [Import OpenAPI/Swagger definitions](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-openapi-swagger-definitions.md): Supported Swagger 2.0, OpenAPI 3.0 and 3.1 sources, from a file or an unprotected URL.
+- [Import from HTML](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-html.md): Zipped archive upload plus settings for encoding, topic splitting, image location, and styles.
+- [Preparing HTML for Import](https://docs.clickhelp.com/articles/clickhelp-user-manual/preparing-html-for-import.md): How archive folder structure maps to TOC hierarchy, the index.html trick, and character set meta tags.
+- [Import from PDF](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-pdf.md): Beta feature with splitting and image format options, plus file size, version, and monthly limits.
+- [Import from CHM](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-chm.md): Preserves TOC structure, index keywords, styles, and scripts; includes post-import CSS editing steps.
+- [Import from Markdown](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-markdown.md): Wizard steps for Markdown files; CommonMark with GFM fenced code blocks is the supported dialect.
+- [Import from docfx](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-docfx.md): Bring in archived HTML output from docfx to build a C# or VB SDK reference.
+- [Import from Microsoft Word](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-from-microsoft-word.md): Supported DOCX, DOC, and RTF sources, accepting tracked changes beforehand, and the wizard steps.
+- [Microsoft Word Import Settings Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/microsoft-word-import-settings-reference.md): Each option explained: image location, topic splitting, outline depth, styles processing, CSS class generation.
+- [Using Project Templates](https://docs.clickhelp.com/articles/clickhelp-user-manual/microsoft-word-import-using-project-templates.md): Word import: target a template-based project and pick Keep layout only to inherit template styles.
+- [Import Shapes from Microsoft Word](https://docs.clickhelp.com/articles/clickhelp-user-manual/microsoft-word-import-shapes.md): Shapes are dropped on import; save the document as a web page to recover them as images.
+- [Image Import Formats](https://docs.clickhelp.com/articles/clickhelp-user-manual/image-import-formats.md): Word image import: PNG for screenshots, JPG for photos, and converting the rest afterwards.
+- [Linked Images](https://docs.clickhelp.com/articles/clickhelp-user-manual/microsoft-word-import-linked-images.md): Word image import: embed externally stored pictures and break the links before importing.
+- [Cropped Images](https://docs.clickhelp.com/articles/clickhelp-user-manual/microsoft-word-import-cropped-images.md): Word image import: use Compress Pictures to delete cropped areas, or full images appear.
+- [Handling Content Styles](https://docs.clickhelp.com/articles/clickhelp-user-manual/handling-content-styles.md): Optimize styles, Keep precise styles, and Keep layout only modes compared, with CSS class generation notes.
+- [Documentation Import FAQ](https://docs.clickhelp.com/articles/clickhelp-user-manual/faq-documentation-import.md): Answers on supported formats, splitting Word documents into topics, dropping inline styles, and target project choice.
+
+## Authoring
+
+- [Authoring](https://docs.clickhelp.com/articles/clickhelp-user-manual/authoring.md): Topic-based model of projects and topics, plus the editing and content-reuse features available for writing.
+- [Projects Page](https://docs.clickhelp.com/articles/clickhelp-user-manual/projects-page.md): Central hub listing projects, translations, and publications as cards, with contextual actions and a Recent Documents panel.
+- [Building Knowledge Base](https://docs.clickhelp.com/articles/clickhelp-user-manual/building-knowledge-base.md): Decisions for an internal or external knowledge base: access control, SEO, content reuse, structure, partial publishing.
+- [Managing multi-version documentation](https://docs.clickhelp.com/articles/clickhelp-user-manual/managing-multi-version-documentation.md): Several publications from one project versus a project copy per version, and combining both approaches.
+- [Create a Topic](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-topic.md): Fields of the New Topic dialog — ID, location, editor type — and the template, copy, and reuse content modes.
+- [Copying a Topic](https://docs.clickhelp.com/articles/clickhelp-user-manual/copying-a-topic.md): Copying one topic or several at once within a project or into another, with file and image handling.
+- [Arrange Topics in Table of Contents](https://docs.clickhelp.com/articles/clickhelp-user-manual/arrange-topics-in-table-of-contents.md): Node types, node properties, ways to move nodes, and icon modifiers signaling TOC visibility and publishing settings.
+- [Topic Properties](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-properties.md): Two routes to the properties screen — the TOC node menu and the topic header More button.
+- [General Topic Properties](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-properties-general.md): Title and ID, custom TOC caption, node icons, TOC visibility, publishing mode, search options, folder conversion.
+- [Index Keywords](https://docs.clickhelp.com/articles/clickhelp-user-manual/index-keywords.md): Adding keywords and taxonomies, using them to tune full-text search, and how readers browse the Index panel.
+- [Auto-topics](https://docs.clickhelp.com/articles/clickhelp-user-manual/auto-topics.md): Read-only topics generated from OpenAPI files under a mount point, with their TOC appearance and limitations.
+- [Updating Auto-topics](https://docs.clickhelp.com/articles/clickhelp-user-manual/updating-auto-topics.md): Refreshing a whole generated set from a newer file or URL using the Update button in the editor or TOC.
+- [Auto-topics Update Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/auto-topics-update-reference.md): Wizard steps and options: source file or URL, and three import modes controlling how methods split into topics.
+- [API Documentation](https://docs.clickhelp.com/articles/clickhelp-user-manual/api-documentation.md): Reference docs generated from OpenAPI YAML and JSON, with request samples and an in-browser Test Request panel.
+- [Generate API Documentation](https://docs.clickhelp.com/articles/clickhelp-user-manual/generate-api-documentation.md): Import Wizard walkthrough for turning an OpenAPI/Swagger file into a new project or extra topics.
+- [Sync Docs With Updated API Definition](https://docs.clickhelp.com/articles/clickhelp-user-manual/sync-docs-with-updated-api-definition.md): Five steps to point an existing mount point at a newer definition file and refresh the reference.
+- [Try Interactive API Documentation](https://docs.clickhelp.com/articles/clickhelp-user-manual/try-it-out-interactive-api-documentation.md): How Test Request sends live calls to the host from the definition, and where authentication values go.
+- [Legacy API Documentation](https://docs.clickhelp.com/articles/clickhelp-user-manual/legacy-api-documentation.md): Legacy and Modern rendering engines for portals created before February 2025, and where to switch between them.
+- [Editing Topics](https://docs.clickhelp.com/articles/clickhelp-user-manual/editing-topics.md): Feature comparison of the Block-based and Advanced editors, with guidance on which content suits each.
+- [Select Topic Editor](https://docs.clickhelp.com/articles/clickhelp-user-manual/select-topic-editor.md): Picking an editor during topic creation, setting a project default, and why the choice is permanent.
+- [Advanced Topic Editor](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-editor.md): View and Edit modes, autosave every 30 seconds, and the Design, Source, and Preview tabs.
+- [Advanced Topic Editor - Design Mode](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-editor-wysiwyg.md): What the Home, Insert, View, and Table ribbon tabs contain, including the Single-Sourcing group.
+- [Advanced Topic Editor - HTML Mode](https://docs.clickhelp.com/articles/clickhelp-user-manual/html-source.md): Code completion, syntax highlighting, error detection, tag suggestions, and the Auto Format command for readable markup.
+- [Advanced Topic Editor - Preview Mode](https://docs.clickhelp.com/articles/clickhelp-user-manual/preview.md): Selecting output tags on the View tab to see how dynamic elements resolve in the output.
+- [Check Spelling: Built-in, Browser, Grammarly](https://docs.clickhelp.com/articles/clickhelp-user-manual/check-spelling.md): Three checking approaches compared, supported dictionary languages, the Check as you type option, and how Grammarly fits in.
+- [How to Restart Numbered Lists](https://docs.clickhelp.com/articles/clickhelp-user-manual/how-to-restart-numbered-lists.md): Changing a list item's Value in Element Properties through the Tag Inspector so following items renumber.
+- [Insert Images](https://docs.clickhelp.com/articles/clickhelp-user-manual/insert-images.md): Uploading from disk or File Storage, image and style properties, and disabling autoresizing with an HTML attribute.
+- [Insert Videos](https://docs.clickhelp.com/articles/clickhelp-user-manual/insert-videos.md): YouTube dialog with extra options, Vimeo and Screencast embed codes, and MP4 files served from File Storage.
+- [Insert Links](https://docs.clickhelp.com/articles/clickhelp-user-manual/insert-links.md): Topic, web, and mailto links plus anchors, including how anchor IDs are generated and safely changed.
+- [Insert Tables](https://docs.clickhelp.com/articles/clickhelp-user-manual/insert-tables.md): Where the Table command sits on the ribbon and the four steps to add an empty table.
+- [Insert Table Dialog Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/insert-table-dialog-reference.md): Size, layout, appearance, accessibility (headers, sorting, sticky headers, caption, summary), and CSS class options explained.
+- [Insert Tabs](https://docs.clickhelp.com/articles/clickhelp-user-manual/insert-tabs.md): Creating tabbed blocks, nesting them, CSS styling, making individual tabs conditional, and their fallback in printed output.
+- [Code Highlighting](https://docs.clickhelp.com/articles/clickhelp-user-manual/code-highlighting.md): Inserting, editing, and removing Code Sample blocks, the Copy Code button, and one sample in several languages.
+- [Add Navigation Elements](https://docs.clickhelp.com/articles/clickhelp-user-manual/add-navigation-elements.md): Cross-topic navigation options available in ClickHelp: breadcrumbs, Mini-TOC, Top/Next/Previous links, and See Also lists.
+- [Breadcrumbs](https://docs.clickhelp.com/articles/clickhelp-user-manual/breadcrumbs.md): Inserting a parent-path element, optionally with a Home link, current topic, custom separator, and caption.
+- [Mini-TOC (Table of Contents) Navigation Element](https://docs.clickhelp.com/articles/clickhelp-user-manual/mini-toc.md): Auto-updating in-topic list of headings, added from the Navigation group and useful for long topics.
+- [Top, Next, Previous Topic](https://docs.clickhelp.com/articles/clickhelp-user-manual/top-next-previous-topic.md): Inserting the links, and how publishing settings and TOC visibility determine their targets at publishing time.
+- [Top, Next, Previous Topic Scenarios](https://docs.clickhelp.com/articles/clickhelp-user-manual/top-next-previous-topic-scenarios.md): Worked examples where hidden nodes, folders, and output tags shift where the navigation links point.
+- [See Also List](https://docs.clickhelp.com/articles/clickhelp-user-manual/see-also-list.md): Element listing child topics, same-level topics, or both, with an optional custom separator.
+- [Add Ready Elements](https://docs.clickhelp.com/articles/clickhelp-user-manual/add-ready-elements.md): Prebuilt attention-drawing and collapsible blocks — Info, Warning, Show More — all customizable through CSS.
+- [Quick Parts](https://docs.clickhelp.com/articles/clickhelp-user-manual/quick-parts.md): Creating, inserting, editing, and deleting reusable content extracts, the API docs set, and how they differ from snippets.
+- [Show More Box](https://docs.clickhelp.com/articles/clickhelp-user-manual/show-more-box.md): Collapsible block, now delivered as a Quick Part, with editable Show more and Hide labels.
+- [Dropdown Text](https://docs.clickhelp.com/articles/clickhelp-user-manual/dropdown-text.md): Hidden text triggered by a word or phrase hotspot and revealed below the current paragraph.
+- [Text Popup](https://docs.clickhelp.com/articles/clickhelp-user-manual/text-popup.md): Clicking selected text opens hidden content in a small popup instead of a new page.
+- [Insert Special Symbols](https://docs.clickhelp.com/articles/clickhelp-user-manual/how-to-insert-special-symbols.md): Symbol dialog with categories and shortcuts for recent characters, plus the Unicode ALT-code fallback.
+- [Embed Diagrams](https://docs.clickhelp.com/articles/clickhelp-user-manual/embed-diagrams.md): Pasting iframe or SVG embed code from draw.io, Lucidchart, and Gliffy through the Custom HTML dialog.
+- [Embed Math Equations](https://docs.clickhelp.com/articles/clickhelp-user-manual/embed-math-equations.md): Adding the MathJax script to the master page, then pasting MathML or TeX markup as custom HTML.
+- [Resizing Table Columns](https://docs.clickhelp.com/articles/clickhelp-user-manual/resizing-table-columns.md): Setting table width to AutoFit to contents first, then giving individual columns custom widths.
+- [Content Pasting Options](https://docs.clickhelp.com/articles/clickhelp-user-manual/content-pasting-options.md): Keep Source Formatting, Merge Formatting, and Keep Plain Text modes, their defaults, and the related shortcuts.
+- [Block-Based Topic Editor](https://docs.clickhelp.com/articles/clickhelp-user-manual/block-based-topic-editor.md): Beta editor built on draggable blocks for clean structured content without HTML knowledge.
+- [Working with Block-Based Topic Editor](https://docs.clickhelp.com/articles/clickhelp-user-manual/working-with-block-based-topic-editor.md): Adding, editing, moving, and nesting blocks, list indentation, multiline blocks, automatic saving, and undo.
+- [Block-Based Topic Editor Blocks](https://docs.clickhelp.com/articles/clickhelp-user-manual/block-based-topic-editor-blocks.md): Block categories — headings, basic, advanced, media, others — with usage notes and current beta limits.
+- [Single-Sourcing and Dynamic Output](https://docs.clickhelp.com/articles/clickhelp-user-manual/dynamic-output-authoring.md): How output tags resolve dynamic elements so one project yields publications with different TOCs and content.
+- [Use Variables in Text](https://docs.clickhelp.com/articles/clickhelp-user-manual/use-variables-in-text.md): Creating project and global variables, which scope wins on a name clash, and inserting them from the ribbon.
+- [Use Variables in Topic Content](https://docs.clickhelp.com/articles/clickhelp-user-manual/variables-1.md): Where variables are defined at portal and project level, and the ch:var syntax for the Source mode.
+- [Use Variables in Topic Title](https://docs.clickhelp.com/articles/clickhelp-user-manual/use-variables-in-topic-title.md): Placing variable markup in a topic title or custom TOC caption; values resolve at publishing.
+- [Conditional Content](https://docs.clickhelp.com/articles/clickhelp-user-manual/dynamic-conditional-content.md): Insert Conditional Block, Make Conditional, and Clear Conditions commands, including/excluding types, HTML attributes, and output preview.
+- [Output Tags](https://docs.clickhelp.com/articles/clickhelp-user-manual/output-tags.md): What tags are, where to create them, which elements they drive, and selecting them in the publishing wizard.
+- [TOC Nodes Publishing Properties](https://docs.clickhelp.com/articles/clickhelp-user-manual/toc-nodes.md): Four publishing modes for TOC nodes and how a parent's mode constrains its child nodes.
+- [Inheritance of Publishing Modes and TOC Inclusion](https://docs.clickhelp.com/articles/clickhelp-user-manual/inheritance-of-publishing-modes-and-toc-inclusion.md): TOC visibility inheritance rules and a full table combining parent and child publishing modes.
+- [Content Snippets](https://docs.clickhelp.com/articles/clickhelp-user-manual/content-snippets.md): Keeping shared HTML in its own topic, inserting and deleting snippets, markup syntax, and dynamic elements inside them.
+- [Reusing Topic in Multiple ToC Nodes](https://docs.clickhelp.com/articles/clickhelp-user-manual/reusing-topic-in-multiple-toc-nodes.md): Creating a topic that references another by snippet, giving the same content a second URL and properties.
+- [Share Content Among Topics](https://docs.clickhelp.com/articles/clickhelp-user-manual/share-content-among-topics.md): Source and target topic roles, inserting a snippet, and how the link is flattened at publishing.
+- [Merging Lists Using Snippets](https://docs.clickhelp.com/articles/clickhelp-user-manual/merging-lists-using-snippets.md): Inserting a list snippet into an empty list item so numbering continues across the merged items.
+- [Topic Master Page](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-master-page.md): Page title, extra head tags, header and footer markup fields, and what they enable — SEO, fonts, integrations.
+- [Custom Topic Footer and Header](https://docs.clickhelp.com/articles/clickhelp-user-manual/custom-topic-footer-and-header.md): Applying header and footer HTML portal-wide or per project, and republishing to propagate it.
+- [Adding SEO Meta Tags](https://docs.clickhelp.com/articles/clickhelp-user-manual/adding-seo-meta-tags.md): Page title templates with the {TITLE} placeholder, plus topic-level meta description and meta keywords.
+- [Using Topic Templates](https://docs.clickhelp.com/articles/clickhelp-user-manual/using-topic-templates.md): Managing template files in settings, choosing one at topic creation, and using existing topics or Quick Parts instead.
+- [Conditional Style and Script Files](https://docs.clickhelp.com/articles/clickhelp-user-manual/style-and-script-files.md): Assigning publishing modes to project CSS and JS files so different outputs get different styling.
+- [How to Preview My Content](https://docs.clickhelp.com/articles/clickhelp-user-manual/how-to-preview-my-content.md): Previewing topics in the editor or Reader UI, the home page draft version, and branding CSS changes.
+- [Reader Preview](https://docs.clickhelp.com/articles/clickhelp-user-manual/reader-preview.md): Seeing topics as readers do without publishing, and the rules for how projects and publications open.
+- [WriteAssist – AI Writing Assistant](https://docs.clickhelp.com/articles/clickhelp-user-manual/writeassist-ai-writing-assistant.md): AI helper in the editor for drafting, rewriting, tone, and grammar, with its context scope and request limits.
+- [Ask Your Docs](https://docs.clickhelp.com/articles/clickhelp-user-manual/ask-your-docs.md): Beta bot that queries your projects to expose documentation gaps and judge how well content answers questions.
+- [How to Improve Your Technical Documentation](https://docs.clickhelp.com/articles/clickhelp-user-manual/how-to-improve-your-technical-documentation.md): Signals worth acting on: views and ratings, search queries, support team questions, readability outliers.
+- [Expandable Images (Lightbox Preview)](https://docs.clickhelp.com/articles/clickhelp-user-manual/expandable-images-lightbox-preview.md): Images wider than 100px open full size on click; how to disable it and which formats support it.
+- [Right-To-Left Support](https://docs.clickhelp.com/articles/clickhelp-user-manual/right-to-left-support.md): Automatic RTL layout for readers by selected language and for authors by project language.
+- [Creating Content FAQ](https://docs.clickhelp.com/articles/clickhelp-user-manual/faq-creating-content.md): Answers on videos, replacing a screenshot everywhere, download links, footer snippets, and conditional tags.
+
+## Workflow and review
+
+- [Workflow and Review](https://docs.clickhelp.com/articles/clickhelp-user-manual/review-workflow.md): Entry point for team collaboration through statuses, assignee/owner roles, review comments, ToDo items, and concurrent editing.
+- [Typical Help Authoring Process](https://docs.clickhelp.com/articles/clickhelp-user-manual/typical-help-authoring-process.md): Path from creating a project to publishing, exporting to print, and tracking statistics to improve content.
+- [Review Workflow Overview](https://docs.clickhelp.com/articles/clickhelp-user-manual/review-workflow-overview.md): Recommended review cycle between authors and reviewers, with status changes and notifications at each stage.
+- [Implementing Custom Workflow](https://docs.clickhelp.com/articles/clickhelp-user-manual/implementing-custom-workflow.md): Custom statuses, colors, and transitions, plus what to send Technical Support when requesting them.
+- [Concurrent Topic Editing](https://docs.clickhelp.com/articles/clickhelp-user-manual/concurrent-topic-editing.md): Document locking rules, force-unlocking, editing sessions that produce topic versions, and lock-removal notifications.
+- [Reviewer Workspace](https://docs.clickhelp.com/articles/clickhelp-user-manual/reviewer-dashboard.md): Dashboard listing topics available for review, with grouping, quick and custom filters, sorting, and full-text search.
+- [Using Review Comments](https://docs.clickhelp.com/articles/clickhelp-user-manual/using-review-comments.md): Context-specific feedback threads on selected words or images, with Markdown, @mentions, and per-topic thread counts.
+- [Add Review Comments](https://docs.clickhelp.com/articles/clickhelp-user-manual/add-review-comments.md): Starting a thread from selected content via ribbon, context menu, or shortcut, and replying to threads.
+- [Use @mention in Review Comments](https://docs.clickhelp.com/articles/clickhelp-user-manual/use-mention-in-review-comments.md): Pulling a user into a discussion by typing @ or Markdown syntax; mentioned users become watchers.
+- [Edit Review Comments](https://docs.clickhelp.com/articles/clickhelp-user-manual/edit-review-comments.md): Locating an existing comment through the top menu or the content itself and changing its text.
+- [Get a Link to the Review Comment](https://docs.clickhelp.com/articles/clickhelp-user-manual/get-a-link-to-the-review-comment.md): Copying a shareable link to a whole comment thread from the More menu.
+- [Resolve Review Comments](https://docs.clickhelp.com/articles/clickhelp-user-manual/resolve-review-comments.md): Marking an entire thread as addressed; resolved threads stay accessible in the resolved/deleted section.
+- [Delete Review Comments](https://docs.clickhelp.com/articles/clickhelp-user-manual/delete-review-comments.md): Difference between permanently removing a single comment and archiving a whole thread.
+- [See All Resolved and Deleted Comments](https://docs.clickhelp.com/articles/clickhelp-user-manual/see-all-resolved-and-deleted-comments.md): Opening the archive of past threads for a topic to trace review history.
+- [Using TODO Lists](https://docs.clickhelp.com/articles/clickhelp-user-manual/using-todo-lists.md): Topic-wide checklists for planning and restructuring, with unchecked item counts and notification behavior.
+- [Topic Statuses](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-statuses.md): Meaning of the default Draft, Under Review, and Ready statuses, bulk changes, and transition limits.
+- [Assignee vs Owner](https://docs.clickhelp.com/articles/clickhelp-user-manual/assignee-vs-owner.md): Difference between responsibility for the final version and the current task holder, plus bulk reassignment.
+- [View Topics Assigned to Me](https://docs.clickhelp.com/articles/clickhelp-user-manual/view-topics-assigned-to-me.md): Using the Assigned To Me quick filter above the TOC to narrow it to your work.
+- [Email Notifications](https://docs.clickhelp.com/articles/clickhelp-user-manual/e-mail-notifications.md): Portal- and user-level control over which topic events trigger mail, and who receives it.
+- [Email Notifications Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/e-mail-notifications-reference.md): Every notification option in portal and user settings, covering mentions, workflow, comments, and ToDo triggers.
+- [Email Notification Templates](https://docs.clickhelp.com/articles/clickhelp-user-manual/email-notification-templates.md): Template file names per event, plus the full list of Mustache placeholders they accept.
+- [Email Notification Templates Customization](https://docs.clickhelp.com/articles/clickhelp-user-manual/email-notification-templates-customization.md): Downloading template HTML from Storage, editing subject and body markup, and uploading it back.
+- [Notifications for Power Readers](https://docs.clickhelp.com/articles/clickhelp-user-manual/notifications-for-power-readers.md): How reader subscriptions to topics and publications differ from Contributor watching, including change summaries.
+- [Version History](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history.md): Workflow and content change tracking, when topic versions are created, and options to compare or roll back.
+- [Version History Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/properties-version-history.md): Properties screen controls for viewing, comparing, and rolling back, with list columns and change-type filtering.
+- [View Topic Versions](https://docs.clickhelp.com/articles/clickhelp-user-manual/view-topic-versions.md): Opening an older version in the Version Viewer and switching between Design and Source views.
+- [Restore a Topic Version](https://docs.clickhelp.com/articles/clickhelp-user-manual/restore-topic-version.md): Rollback creates a new version from old contents; intermediate history stays, published topics need Partial Update.
+- [Compare Topic Versions](https://docs.clickhelp.com/articles/clickhelp-user-manual/compare-topic-versions.md): Selecting a target version in the Versions Viewer, reading the highlight legend, and comparing HTML source.
+- [Version History for Readers](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-for-readers.md): Reduced reader-facing change view that compares versions without rollback, gated by a reader interface setting.
+- [Watchers](https://docs.clickhelp.com/articles/clickhelp-user-manual/watchers.md): Scenarios that make a user a topic watcher, plus project-level watching and its limitations.
+- [TOC Filters](https://docs.clickhelp.com/articles/clickhelp-user-manual/toc-filters.md): Basic title filtering, premade filters by assignee or status, and boolean custom filter examples.
+
+## Multi-language documentation
+
+- [Multi-Language Documentation](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-multi-language-documentation.md): Built-in translation ecosystem — licensing, what can be localized, terminology, and how document statuses relate to unit states.
+- [Translation Process Overview](https://docs.clickhelp.com/articles/clickhelp-user-manual/translation-process-overview.md): Tutorial covering base language setup, creating a translation project, split methods, translating units, and publishing.
+- [Translate Home Page](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-home-page.md): Steps from portal settings to the Translator Workspace, plus publishing and the language switcher readers see.
+- [Translate Reader UI](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-reader-ui.md): Ready-made interface languages and the logic that picks one from content language or browser settings.
+- [Translate Settings and Metadata](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-settings-and-metadata.md): Entry point to the five non-content areas: master page, reader menu, variables, index keywords, settings.
+- [Translate Master Page Content](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-master-page-content.md): Filtering the workspace for settings documents, plus conditional tags for per-language content like PDF links.
+- [Translate Reader Menu Items](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-reader-menu-items.md): Filtering portal settings documents in the workspace; both menu item text and links can be localized.
+- [Translate Variables](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-variables.md): Global and project variable documents, how to filter for them, and when translated values take effect.
+- [Translate Index Keywords](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-index-keywords.md): One document per translation project; filter by name, then translate so localized keywords appear after publishing.
+- [Translate Portal and Project Settings](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-portal-and-project-settings.md): Localizing text fields such as logo tooltip and global footer through filtered settings documents.
+- [Localize Images and Files](https://docs.clickhelp.com/articles/clickhelp-user-manual/localize-images-and-files.md): Uploading localized images in the editor, or the automatic swap using locale-suffixed filenames at publishing time.
+- [Translate Email Notification Templates](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-email-notification-templates.md): Locale-suffixed template files, which notifications can be localized, license requirements, and fallback rules.
+- [Translate 404 Not Found Pages](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-404-not-found-pages.md): Custom markup is required; covers Topic and Project Not Found pages and publishing their translations.
+- [Translator Workspace](https://docs.clickhelp.com/articles/clickhelp-user-manual/translator-workspace.md): Central table of all translation documents with quick filters, progress bars, and a column reference.
+- [Translation Editor](https://docs.clickhelp.com/articles/clickhelp-user-manual/translation-editor.md): Header panel, translation units, in-place editor with tag handling, preview area, and keyboard shortcuts.
+- [Machine Translation](https://docs.clickhelp.com/articles/clickhelp-user-manual/machine-translation.md): Supported services, their pricing and free limits, the DeepL data-training caveat, and setup entry points.
+- [Machine Translation Specifics](https://docs.clickhelp.com/articles/clickhelp-user-manual/machine-translation-specifics.md): Which units are skipped in bulk runs, the automatic status changes afterward, and placeholder handling.
+- [Set Up DeepL Translator](https://docs.clickhelp.com/articles/clickhelp-user-manual/set-up-deepl-translator.md): Getting an API key from a DeepL Free or Pro account and entering it in portal settings.
+- [Set Up Google Cloud Translation](https://docs.clickhelp.com/articles/clickhelp-user-manual/set-up-google-cloud-translation.md): Enabling the Cloud Translation API, creating and restricting a key, then pasting it into portal settings.
+- [Set Up Microsoft Translator](https://docs.clickhelp.com/articles/clickhelp-user-manual/set-up-microsoft-translator.md): Creating an Azure Cognitive Services resource to get the key and endpoint, plus the category field.
+- [Translate Content Automatically with Machine Translation](https://docs.clickhelp.com/articles/clickhelp-user-manual/translate-content-automatically-with-machine-translation.md): Running automatic translation on a single unit, one document, several documents, or a whole project.
+- [Machine Translation Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/machine-translation-reference.md): Where the buttons live in the editor, workspace, and Projects page, and what each scope covers.
+- [Machine Translation Settings Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/machine-translation-settings-reference.md): Fields for enabling the DeepL, Google, and Microsoft services: keys, endpoint, and translation category.
+- [Importing and Exporting Translation Documents](https://docs.clickhelp.com/articles/clickhelp-user-manual/importing-and-exporting-translation-documents.md): Why XLIFF 1.2 is used for round-tripping to CAT tools, and the limits on what imports.
+- [Translation Documents Export Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/translation-documents-export-reference.md): Download XLIFF options in the workspace, Projects page, and editor, and the scope each one exports.
+- [Translation Documents Import Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/translation-documents-import-reference.md): Upload XLIFF locations and batch uploads of .xlf and .zip files that update existing translations.
+- [XLIFF Import Specifics](https://docs.clickhelp.com/articles/clickhelp-user-manual/xliff-import-specifics.md): Accepted file formats and the ClickHelp-specific attributes that let the system map units back.
+- [Translation Settings](https://docs.clickhelp.com/articles/clickhelp-user-manual/translation.md): Portal language options — Google Translate widget, reader interface fallback language, and portal settings base language.
+- [Translation & Localization FAQ](https://docs.clickhelp.com/articles/clickhelp-user-manual/translation-localization-faq.md): Answers on translator licensing, publishing rights, topic counts, module limits, and notifying translators of base changes.
+
+## Publishing
+
+- [Publishing](https://docs.clickhelp.com/articles/clickhelp-user-manual/publishing.md): Why projects stay private to Contributors, and what publishing produces — online publications or downloadable output formats.
+- [Online Publications](https://docs.clickhelp.com/articles/clickhelp-user-manual/online-publications.md): The richest output format, hosted on your portal: reader interface, creation, updates, and access protection.
+- [Create Publication](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-publication.md): Wizard steps for name, ID, visibility, site, and output tags, plus what happens when a topic changes mid-publish.
+- [Publish Topics Directly from Topic Editor](https://docs.clickhelp.com/articles/clickhelp-user-manual/publish-topics-directly-from-topic-editor.md): Simplified flow from the Author UI, with behavior differing by the number of existing publications.
+- [Publish Selected Topics](https://docs.clickhelp.com/articles/clickhelp-user-manual/publish-selected-topics.md): Selecting individual TOC nodes via Bulk Actions to push updates without touching unselected topics.
+- [Creating Multi-version Manual](https://docs.clickhelp.com/articles/clickhelp-user-manual/creating-multi-version-manual.md): Publish each software version as a separate publication so readers switch versions from the selector.
+- [Link to Your Documentation Portal](https://docs.clickhelp.com/articles/clickhelp-user-manual/link-to-your-documentation-portal.md): Which link types exist for readers and where to obtain each one.
+- [Universal Links](https://docs.clickhelp.com/articles/clickhelp-user-manual/universal-links.md): Default link-handling logic routing readers to the most relevant accessible version; setup, nuances, comparison with Smart Links.
+- [Get Link to a Specific Publication](https://docs.clickhelp.com/articles/clickhelp-user-manual/get-link-to-a-specific-publication.md): Copy a publication URL from the Projects page; it opens the first topic in the TOC.
+- [Get Link to a Specific Help Topic](https://docs.clickhelp.com/articles/clickhelp-user-manual/get-link-to-a-specific-help-topic.md): Copying a topic URL from the address bar, why project links fail readers, and when Smart Links fit.
+- [Get Link to a Section of a Help Topic](https://docs.clickhelp.com/articles/clickhelp-user-manual/get-link-to-section-of-help-topic.md): Using Link to this heading to get an anchored URL for a published section.
+- [Get Link to Your Documentation Portal Home Page](https://docs.clickhelp.com/articles/clickhelp-user-manual/get-link-to-your-documentation-portal-home-page.md): Where to find the published home page URL per language, plus the domain-only alternative.
+- [Smart Links](https://docs.clickhelp.com/articles/clickhelp-user-manual/smart-links.md): The /smart/ URL format pointing to the latest published version available to a given reader.
+- [Get a Smart Link to a Topic](https://docs.clickhelp.com/articles/clickhelp-user-manual/get-a-smart-link-to-a-topic.md): Copying it from the Get topic link button in the Topic Editor.
+- [Get a Smart Link to a Section of a Topic](https://docs.clickhelp.com/articles/clickhelp-user-manual/get-a-smart-link-to-a-section-of-a-topic.md): Turn a heading link into a Smart Link by replacing /articles/ with /smart/ and dropping #!.
+- [Update Publications](https://docs.clickhelp.com/articles/clickhelp-user-manual/update-publications.md): Full Replace versus partial update when publication URLs must stay the same, with full-replace wizard steps.
+- [The Partial Update Publishing Mode](https://docs.clickhelp.com/articles/clickhelp-user-manual/the-partial-update-publishing-mode.md): Push changed topics only; which topics get updated, added, or left untouched in the target publication.
+- [Partial Update - TOC Update Algorithm](https://docs.clickhelp.com/articles/clickhelp-user-manual/partial-update-toc-update-algorithm.md): How topic IDs are matched, when new topics are skipped, navigation side effects, and eight worked cases.
+- [Protecting Your User Manuals](https://docs.clickhelp.com/articles/clickhelp-user-manual/protecting-your-user-manuals.md): Five access options — secret link, shared account, self-hosted Web Help, per-user accounts, SSO — rated by difficulty and security.
+- [Restricted User Manuals](https://docs.clickhelp.com/articles/clickhelp-user-manual/restricted-access.md): Set up Power Readers or Access Groups, publish with Restricted visibility, and change access later.
+- [Change Publication Visibility](https://docs.clickhelp.com/articles/clickhelp-user-manual/how-to-change-publication-visibility.md): Switching an existing publication between Public, Restricted, and Private in its Visibility & access settings.
+- [Unpublishing and Deleting Publications](https://docs.clickhelp.com/articles/clickhelp-user-manual/delete-or-unpublish-publications.md): Deleting a publication along with its files, or hiding it from readers by making it Private.
+- [Hide Publication from Publication Lists](https://docs.clickhelp.com/articles/clickhelp-user-manual/hide-publication-from-publication-lists.md): Keep a publication out of home page lists, the search page, the publications bar, and the version selector.
+- [View Output Tags Used in Publications](https://docs.clickhelp.com/articles/clickhelp-user-manual/view-output-tags-used-in-publications.md): Where tags applied during the last publishing appear: publication settings and the Projects page card.
+- [SEO Settings for Online Documentation](https://docs.clickhelp.com/articles/clickhelp-user-manual/seo-for-online-documentation.md): Human-readable URLs, index keywords, and the meta description, keywords, and extra head tags in topic properties.
+- [Export Formats](https://docs.clickhelp.com/articles/clickhelp-user-manual/export-formats.md): The eleven supported downloadable formats, where generated files are stored, and which formats count as printed.
+- [Create a PDF Manual](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-a-pdf-manual.md): Single-sourcing approach plus wizard steps for exporting a project or publication and locating the file in Storage.
+- [Download Topic as PDF](https://docs.clickhelp.com/articles/clickhelp-user-manual/download-topic-as-pdf.md): Per-topic export for Contributors and readers, with the export preset and Reader Interface prerequisites.
+- [Create a Markdown Manual](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-a-markdown-manual.md): Exporting a project or publication as a zipped .md archive for version control or other systems.
+- [Create a CHM Manual](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-a-chm-manual.md): Export steps, the Windows file-blocking workaround, and interactive elements that do not work in CHM.
+- [Create a Web Help Manual](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-a-web-help-manual.md): Static HTML output for offline use or self-hosting, with linking, branding, and search limitations.
+- [Create an HTML Manual](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-html-manual.md): Content-only HTML export of a project or publication, without the reader interface.
+- [HTML Files Export Specifics](https://docs.clickhelp.com/articles/clickhelp-user-manual/html-files-export-specifics.md): What the archive contains, including indexKeywords.json and toc.json for rebuilding the hierarchy elsewhere.
+- [Printed Formats Export Specifics](https://docs.clickhelp.com/articles/clickhelp-user-manual/printed-formats-export-specifics.md): How PDF, Word, and RTF output can be styled, and limits such as unsupported SVG images.
+- [Export Presets](https://docs.clickhelp.com/articles/clickhelp-user-manual/export-configurations.md): Reusable sets of printed-output settings, defined manually or from a Word template, managed in portal settings.
+- [Create an Export Preset](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-export-preset.md): Wizard steps for both preset types: Word template selection, or manual TOC, headings, and page setup.
+- [Apply an Export Preset](https://docs.clickhelp.com/articles/clickhelp-user-manual/apply-export-preset.md): Choosing a preset while exporting a project or publication to a printed format.
+- [Export with Word Templates](https://docs.clickhelp.com/articles/clickhelp-user-manual/export-with-word-templates.md): Configure margins, headers, cover page, and TOC style in Word; default templates live in Storage.
+- [Customizing Word Template](https://docs.clickhelp.com/articles/clickhelp-user-manual/creating-a-custom-word-template.md): Editing templates in the built-in editor or MS Word, and the {{TOPICS}}, {{TOC}}, {{TITLE}} placeholders.
+- [Styling Word Template](https://docs.clickhelp.com/articles/clickhelp-user-manual/styling-word-template.md): Why template styles affect only generated headings, TOC, and page furniture — not your topic content.
+- [Set Custom Background Image in Word Template](https://docs.clickhelp.com/articles/clickhelp-user-manual/set-custom-background-image-in-word-template.md): Insert the image into the header or footer behind the text, since Word page fill is unsupported.
+- [Modify Heading Styles in a Word Template](https://docs.clickhelp.com/articles/clickhelp-user-manual/modify-heading-styles-in-a-word-template.md): Requires MS Word: download the template, modify heading styles, and upload it back.
+- [Custom TOC Style for Printed Docs](https://docs.clickhelp.com/articles/clickhelp-user-manual/custom-toc-style-for-printed-docs.md): Editing per-level TOC styles in the downloaded Word template via References → Table of Contents.
+- [Manual Setup of Export Presets](https://docs.clickhelp.com/articles/clickhelp-user-manual/manual-setup-of-export-presets.md): Sections available without a Word file: TOC and cover, headings, and page setup.
+- [TOC and Headings Printed Settings Description](https://docs.clickhelp.com/articles/clickhelp-user-manual/printed-output-heading-settings-description.md): Max heading level, page starts, generated versus in-content headings, and numbering format.
+- [Printed Output Topic Settings](https://docs.clickhelp.com/articles/clickhelp-user-manual/properties-printed-output.md): Per-topic heading font, style, and alignment options that override global export settings.
+- [Page Breaks](https://docs.clickhelp.com/articles/clickhelp-user-manual/page-breaks.md): Two ways to start a topic on a new page: topic properties or CSS page-break rules.
+- [Supported Formatting Features for Printed Formats](https://docs.clickhelp.com/articles/clickhelp-user-manual/supported-formatting-features-for-printed-formats.md): Tag-by-tag table of supported HTML attributes and a list of what PDF, Word, and RTF ignore.
+- [Font Size Units](https://docs.clickhelp.com/articles/clickhelp-user-manual/font-size-units.md): Which absolute and relative CSS length units work in printed output; vh and vw do not.
+- [Background Image and Color](https://docs.clickhelp.com/articles/clickhelp-user-manual/background-image-and-color.md): Setting a topic background color via CSS and a page background image via a Word file.
+- [Paddings and Borders](https://docs.clickhelp.com/articles/clickhelp-user-manual/paddings-and-borders.md): Only tables support them; a table workaround for framing images in printed output.
+- [Handling Fonts for Printed Output](https://docs.clickhelp.com/articles/clickhelp-user-manual/handling-fonts-for-printed-output.md): Which fonts get embedded in PDF, why fallbacks are ignored, and Word's font-name-only limitation.
+- [Hide Content From the Printed Manual](https://docs.clickhelp.com/articles/clickhelp-user-manual/hide-content-from-the-printed-manual.md): Apply the nonPrintable CSS class to omit elements from generated and browser-printed output.
+- [Context Help](https://docs.clickhelp.com/articles/clickhelp-user-manual/context-help.md): Generate embeddable HTML for popups, image or text hotspots, and assistant panels, plus iframe URL parameters.
+- [Use Web Help as Context Help Source](https://docs.clickhelp.com/articles/clickhelp-user-manual/use-web-help-as-context-help-source.md): Point snippets at self-hosted WebHelp files instead of the portal, and embed the WebHelp search panel.
+- [Context Help FAQ](https://docs.clickhelp.com/articles/clickhelp-user-manual/context-help-faq.md): Restricted publications, using regular links instead of smart links, and restyling the generated code.
+- [Documentation Outputs FAQ](https://docs.clickhelp.com/articles/clickhelp-user-manual/faq-documentation-outputs.md): Reader PDF downloads, client-specific restricted publications, and where to choose export configurations.
+
+## Styling and branding
+
+- [Styling and Branding](https://docs.clickhelp.com/articles/clickhelp-user-manual/branding-styling.md): How content styles and interface styles differ in ClickHelp, and where each one is configured.
+- [Topic Content Styling](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-content-styling.md): Inline styles versus project CSS files, file precedence, and conditional styles tied to output tags.
+- [Open a Project Style File](https://docs.clickhelp.com/articles/clickhelp-user-manual/open-a-project-style-file.md): Three routes to project CSS — editor ribbon, project Basic Settings, and File Manager Styles tab.
+- [Project Templates](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-templates.md): Creating a project from a built-in design template and editing the CSS, scripts, and images it ships with.
+- [Styling Projects Created From Templates](https://docs.clickhelp.com/articles/clickhelp-user-manual/styling-projects-created-from-tempates.md): What a template's file set contains, plus a walkthrough of changing the body font-family.
+- [Applying Template Styles to Imported Projects](https://docs.clickhelp.com/articles/clickhelp-user-manual/applying-template-styles-to-imported-projects.md): Removing imported styles, moving template CSS to a shared folder, and cleaning up leftover markup.
+- [Configure Table Styles](https://docs.clickhelp.com/articles/clickhelp-user-manual/table-styles.md): The CHTable class, header and alternating-row colors, custom table classes, and preventing header line breaks.
+- [GIFs Border and Shadow](https://docs.clickhelp.com/articles/clickhelp-user-manual/gifs-border-and-shadow.md): CSS classes for box-shadow and border, applied to an animation through Image Properties.
+- [Using Your Own Fonts](https://docs.clickhelp.com/articles/clickhelp-user-manual/using-your-own-fonts.md): Uploading font files to storage, declaring @font-face in project and branding CSS, and setting fallbacks.
+- [Using Paid Fonts](https://docs.clickhelp.com/articles/clickhelp-user-manual/using-paid-fonts.md): Licensing commercial fonts for your portal domain and adding vendor code such as Typekit kits.
+- [Branding: General Information](https://docs.clickhelp.com/articles/clickhelp-user-manual/branding-general-information.md): Which reader-facing pages can be branded, what stays fixed, and where custom domains fit in.
+- [Documentation Portal Home Page](https://docs.clickhelp.com/articles/clickhelp-user-manual/documentation-portal-home-page.md): The entry page readers see first, built modularly from blocks; one page per documentation site.
+- [Portal Home Pages Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/portal-home-pages-reference.md): The Portal home page screen — per-language and per-site lists, publish state labels, available actions.
+- [Home Page Editor](https://docs.clickhelp.com/articles/clickhelp-user-manual/building-home-page.md): Adding, editing, and moving blocks, plus look and feel, SEO fields, and draft preview.
+- [Home Page Editor Blocks](https://docs.clickhelp.com/articles/clickhelp-user-manual/home-page-editor-blocks.md): Block catalog by category — headings, text, cards and publication lists, hero banner, custom HTML, layout.
+- [Publish Home Page](https://docs.clickhelp.com/articles/clickhelp-user-manual/publish-home-page.md): Pushing a draft live from the settings screen or the editor, publishing translations, and unpublishing.
+- [Legacy Home Page Editor](https://docs.clickhelp.com/articles/clickhelp-user-manual/portal-home-page.md): Deprecated WYSIWYG editor — HTML templates, background image widget, and the PUBS, NAME, URL placeholders.
+- [Reader Interface](https://docs.clickhelp.com/articles/clickhelp-user-manual/reader-interface.md): The three layers wrapping published content — template, settings, Branding.css — and how they stack.
+- [Reader Interface Templates](https://docs.clickhelp.com/articles/clickhelp-user-manual/reader-interface-templates.md): Seven layouts to pick from, per-project overrides, preview limits, and template-specific setting differences.
+- [Next Reader UI Template](https://docs.clickhelp.com/articles/clickhelp-user-manual/new-reader-ui-template.md): Enabling the modern template — WCAG 2.2 AA, no hashbang URLs, supported settings, unsupported features.
+- [Reader Interface Settings](https://docs.clickhelp.com/articles/clickhelp-user-manual/reader-interface-settings.md): Option-by-option reference for UI colors, header, footer, sidebar, navigation panel, TOC, and topic viewer.
+- [Reader Menu Editor](https://docs.clickhelp.com/articles/clickhelp-user-manual/reader-menu-editor.md): Building the menu tree, item actions (open topic, open link, show submenu), and per-item CSS classes.
+- [Reader Menu Editor Scenarios](https://docs.clickhelp.com/articles/clickhelp-user-manual/reader-menu-editor-scenarios.md): Five CSS recipes — image items, buttons, per-item colors, and centering the menu.
+- [Change Header Logo](https://docs.clickhelp.com/articles/clickhelp-user-manual/change-header-logo.md): Uploading the image at the recommended height, setting a tooltip and target URL, and per-site logos.
+- [Page Header and Footer](https://docs.clickhelp.com/articles/clickhelp-user-manual/page-header-and-footer.md): Favicon and logo options, header height and colors, footer HTML content and link colors.
+- [TOC Styling](https://docs.clickhelp.com/articles/clickhelp-user-manual/toc-styling.md): Replacing tree node icons per topic in Topic Properties or portal-wide through Branding.css selectors.
+- [Advanced Branding with CSS and JavaScript](https://docs.clickhelp.com/articles/clickhelp-user-manual/advanced-branding-with-css.md): Portal Branding CSS and script settings, the default Branding.css selectors, and their reader-only scope.
+- [Draft and Published Versions of Reader-Facing Pages](https://docs.clickhelp.com/articles/clickhelp-user-manual/draft-and-published-versions-of-pages.md): Draft state for home and not-found pages, viewing the live version, publishing and unpublishing languages.
+- [Branding & Styling FAQ](https://docs.clickhelp.com/articles/clickhelp-user-manual/faq-content-styling.md): Answers on matching your website look, multiple style files, custom fonts, and master page headers/footers.
+
+## Reporting and analytics
+
+- [Reporting and Analytics](https://docs.clickhelp.com/articles/clickhelp-user-manual/reporting-and-analytics.md): Built-in team performance and reader behavior analytics, plus Google Analytics and third-party tool integration.
+- [Report Center](https://docs.clickhelp.com/articles/clickhelp-user-manual/report-center.md): Entry page with four high-level charts — words added by contributors and by projects, topics in progress, topic views.
+- [Reports](https://docs.clickhelp.com/articles/clickhelp-user-manual/reports.md): Index of the available report types, from project readiness to reader behavior and topic metrics.
+- [Project Readiness Report](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-readiness-report.md): Tracks writing and review progress through topic statuses and review comment counts, including custom workflows.
+- [Project Readiness by Topics Report](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-readiness-by-topics-report.md): Topic distribution by status per project and per assignee, useful for spotting review bottlenecks.
+- [Project Readiness By Review Comments Report](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-readiness-by-review-comments-report.md): Comment status per project and contributor, with a per-topic table of unresolved, resolved, and deleted counts.
+- [Words Added Report](https://docs.clickhelp.com/articles/clickhelp-user-manual/words-added-report.md): Each writer's contribution measured in words — by contributor, by project, and as a top-contributors ranking.
+- [Topics Created Report](https://docs.clickhelp.com/articles/clickhelp-user-manual/topics-created-report.md): Counts of new topics per writer and per project, with a top-contributors bar chart.
+- [Reader Behavior Reports](https://docs.clickhelp.com/articles/clickhelp-user-manual/reader-behavior-reports.md): Statistics for anonymous readers and Power Readers — views, ratings, search queries, and unique reader counts.
+- [Topic Views and Ratings Report](https://docs.clickhelp.com/articles/clickhelp-user-manual/topics-views-and-ratings-report.md): View counts plus positive and negative feedback percentages from the reader feedback widget, per publication and topic.
+- [Search Queries Report](https://docs.clickhelp.com/articles/clickhelp-user-manual/search-queries-report.md): Keywords readers search for, with result counts, click counts, and last-query dates for spotting content gaps.
+- [Reader Count Report](https://docs.clickhelp.com/articles/clickhelp-user-manual/reader-count-report.md): Unique viewers per publication over time, plus a table of Power Reader names, emails, and last activity.
+- [Topic Metrics Reports](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-metrics-reports.md): Histograms and data tables for text, readability, and item count metrics across projects and publications.
+- [AnswerGenius Report](https://docs.clickhelp.com/articles/clickhelp-user-manual/answergenius-report.md): Question volume, success rate, unique users, and an events grid of actual AnswerGenius chat queries.
+- [AnswerGenius Report Use Cases](https://docs.clickhelp.com/articles/clickhelp-user-manual/answergenius-report-use-cases.md): Practical scenarios — finding documentation gaps, tracking AI answer quality, measuring adoption, briefing support teams.
+- [Topic Metrics](https://docs.clickhelp.com/articles/clickhelp-user-manual/topic-metrics.md): Full list of available metrics and how to choose which three appear in the topic header.
+- [Text Metrics](https://docs.clickhelp.com/articles/clickhelp-user-manual/text-metrics.md): Word, character, sentence, syllable, and average-length counts available per topic.
+- [Unique Text Metric](https://docs.clickhelp.com/articles/clickhelp-user-manual/unique-text-metric.md): Counts words that are not reused through variables or snippets, with a share-of-total percentage.
+- [Time to Read Metric](https://docs.clickhelp.com/articles/clickhelp-user-manual/time-to-read-metric.md): Estimated reading time from average adult reading speed, counting images and reused content.
+- [Printed Pages (A4 Paper Size) Metric](https://docs.clickhelp.com/articles/clickhelp-user-manual/printed-pages-a4-paper-size-metric.md): Page estimate for A4 output, with the assumed margins, font, size, and line spacing.
+- [Printed Pages (Letter Paper Size) Metric](https://docs.clickhelp.com/articles/clickhelp-user-manual/printed-pages-letter-paper-size-metric.md): Page estimate for Letter output, with the assumed margins, font, size, and spacing.
+- [Readability Metrics](https://docs.clickhelp.com/articles/clickhelp-user-manual/readability-metrics.md): Why readability scores matter for reviewers, translators, and SEO, and which formulas ClickHelp calculates.
+- [Flesch-Kincaid Grade Level](https://docs.clickhelp.com/articles/clickhelp-user-manual/flesch-kincaid-grade-level.md): Word and sentence length score from 0 to 18, with grade-level and target-audience guidance.
+- [Coleman-Liau Index](https://docs.clickhelp.com/articles/clickhelp-user-manual/coleman-liau-index.md): Character-based grade score, which tends to return lower values on technical documentation.
+- [Flesch Reading Ease](https://docs.clickhelp.com/articles/clickhelp-user-manual/flesch-reading-ease.md): 0-100 score from sentence and word length, where higher values mean easier text.
+- [Gunning Fog Index](https://docs.clickhelp.com/articles/clickhelp-user-manual/gunning-fog-index.md): Word and sentence length score, typically 0-20, mapped to required years of education.
+- [Automated Readability Index](https://docs.clickhelp.com/articles/clickhelp-user-manual/automated-readability-index.md): Letters-per-word and words-per-sentence score mapped to school grade levels and reader ages.
+- [Linsear Write](https://docs.clickhelp.com/articles/clickhelp-user-manual/linsear-write.md): Grade score based on words of three or more syllables in a 100-word sample.
+- [SMOG Index](https://docs.clickhelp.com/articles/clickhelp-user-manual/smog-index.md): Grade score based on polysyllabic words in a sample of at least 30 sentences.
+- [FORCAST Grade](https://docs.clickhelp.com/articles/clickhelp-user-manual/forcast-grade.md): Grade score based on one-syllable words in a 100-150 word sample; unsuitable for primary-age material.
+- [New Dale-Chall Score](https://docs.clickhelp.com/articles/clickhelp-user-manual/new-dale-chall-score.md): Grade score using a common-word list and difficult-word ratio; English only, returns 0 otherwise.
+- [Average Grade](https://docs.clickhelp.com/articles/clickhelp-user-manual/average-grade.md): Arithmetic mean of all grade-level readability metrics ClickHelp evaluates, with an interpretation table.
+- [General Metrics](https://docs.clickhelp.com/articles/clickhelp-user-manual/general-metrics.md): Single metric showing the last update date, with author and exact time in the tooltip.
+- [Item Count Metrics](https://docs.clickhelp.com/articles/clickhelp-user-manual/item-count-metrics.md): Counts of images, links, tables, videos, snippets, variables, conditional blocks, and review comments.
+- [Reader Events Filtering](https://docs.clickhelp.com/articles/clickhelp-user-manual/reader-events-filtering.md): What is excluded from analytics, and how to ignore specific IP addresses in portal settings.
+
+## Portal management and administration
+
+- [Portal Management and Administration](https://docs.clickhelp.com/articles/clickhelp-user-manual/documentation-portal-management.md): Settings inheritance across portal, project, publication, and topic levels, plus file storage, user types, and SEO options.
+- [Managing Projects](https://docs.clickhelp.com/articles/clickhelp-user-manual/managing-projects.md): Entry point for project-level tasks: duplicating, archiving, renaming, icons, language, styles, link checking, and files.
+- [Copy Project](https://docs.clickhelp.com/articles/clickhelp-user-manual/copying-a-project.md): Duplicate Project Wizard steps for branching a version, making a backup, or changing a project URL.
+- [Archive Project](https://docs.clickhelp.com/articles/clickhelp-user-manual/archive-project.md): Move inactive projects to the Archived section while keeping contributor edits and reader access, and unarchive later.
+- [Rename Project](https://docs.clickhelp.com/articles/clickhelp-user-manual/how-to-rename-a-project.md): Renaming leaves project URLs and the storage folder unchanged; copying the project is the recommended alternative.
+- [Publications Order](https://docs.clickhelp.com/articles/clickhelp-user-manual/publications-order.md): Ordinal numbers that control publication sorting on the home page, switcher, search filters, and sidebar.
+- [Project and Publications Icon](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-and-publications-icon.md): Upload project and hover icons in Basic Settings; publications need a Full Replace update to pick them up.
+- [Project Language](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-language.md): Base language affects search inflections, spellchecker dictionary, and readability scores; set it at creation or later.
+- [Project Styles and Scripts](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-styles.md): Where template CSS and script files live, how to edit them, and how to share them between projects.
+- [Reusing Style Files](https://docs.clickhelp.com/articles/clickhelp-user-manual/reusing-style-files.md): Moving a CSS file into a shared folder and applying it across projects, including file priority order.
+- [Link Viewer](https://docs.clickhelp.com/articles/clickhelp-user-manual/link-viewer.md): Per-topic lists of outbound, inbound, snippet, and external links, used to spot broken ones.
+- [Ways to Handle Broken Links](https://docs.clickhelp.com/articles/clickhelp-user-manual/ways-to-handle-broken-links.md): Causes of broken links, plus fixing them with publishing logs and Global Find and Replace.
+- [File Manager](https://docs.clickhelp.com/articles/clickhelp-user-manual/file-manager.md): File Storage layout by project and publication, the 1 GB upload limit, context-menu actions, and search versus filter.
+- [Project Files Folder](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-files-folder.md): How per-project storage folders are named and copied at publishing, and who can access files in them.
+- [User Management](https://docs.clickhelp.com/articles/clickhelp-user-manual/user-management.md): Contributors versus Power Readers, and how permissions differ from project and publication access.
+- [Roles and Permissions Matrix](https://docs.clickhelp.com/articles/clickhelp-user-manual/understanding-roles-and-permissions.md): Table comparing Power Reader and seven Contributor roles across project, topic, settings, and API capabilities.
+- [Assign a Role to a Contributor](https://docs.clickhelp.com/articles/clickhelp-user-manual/assign-role-to-contributor.md): Changing a role in the user profile; each Contributor can hold only one role at a time.
+- [Contributor Accounts](https://docs.clickhelp.com/articles/clickhelp-user-manual/author-accounts.md): Viewing and editing the Contributor list, profile sections, and how license limits count enabled accounts.
+- [Create Contributor Account](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-contributor-account.md): Required login and email fields, optional project access, and the credentials email sent to the new user.
+- [Project Access for Contributors](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-access-for-authors.md): All-projects versus selected-only access levels, where restricted items disappear, and how new projects inherit access.
+- [Disable Contributor Account](https://docs.clickhelp.com/articles/clickhelp-user-manual/disable-contributor-account.md): Blocking login for a Contributor from the user list, and re-enabling the account later.
+- [Power Reader Accounts](https://docs.clickhelp.com/articles/clickhelp-user-manual/power-reader-accounts.md): External accounts for password-protected publications, created only by Administrators, with per-user or group access.
+- [Create Power Reader Account](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-power-reader-account.md): Steps and required fields, selecting restricted publications, and the API alternative for large batches.
+- [Bulk Creation of Power Readers](https://docs.clickhelp.com/articles/clickhelp-user-manual/bulk-creation-of-power-readers.md): PowerShell script and CSV format for creating many accounts through the API, with setup notes.
+- [Disable Power Reader Accounts](https://docs.clickhelp.com/articles/clickhelp-user-manual/disable-power-reader-accounts.md): Blocking login for a Power Reader from the Power Readers list, and re-enabling it later.
+- [Delete User Account](https://docs.clickhelp.com/articles/clickhelp-user-manual/delete-user-account.md): Accounts cannot be removed; disable them, free the login by editing personal data, and hide disabled users.
+- [User Profile Settings](https://docs.clickhelp.com/articles/clickhelp-user-manual/user-profile-settings.md): Personal information, Gravatar photos, API key reset, and password changes against portal strength requirements.
+- [User Time Zone Settings](https://docs.clickhelp.com/articles/clickhelp-user-manual/user-time-zone-settings.md): Picking a time zone and date format for timestamps; SSO users must set it manually.
+- [Reset User Password](https://docs.clickhelp.com/articles/clickhelp-user-manual/reset-user-password.md): Administrators trigger a reset email with a time-limited link; the old password stops working immediately.
+- [Access Groups](https://docs.clickhelp.com/articles/clickhelp-user-manual/access-groups.md): Group Reviewers or Power Readers to configure project and publication access centrally instead of per user.
+- [Create Access Group](https://docs.clickhelp.com/articles/clickhelp-user-manual/create-access-group.md): Settings paths and fields for building Reviewer and Power Reader groups with their access scope and members.
+- [Edit Access Group](https://docs.clickhelp.com/articles/clickhelp-user-manual/edit-access-group.md): Adding or removing members and projects in the Access Group Editor for both group types.
+- [Delete Access Group](https://docs.clickhelp.com/articles/clickhelp-user-manual/delete-access-group.md): Removing Reviewer or Power Reader groups, and what former members lose access to afterwards.
+- [Auto-disable inactive users](https://docs.clickhelp.com/articles/clickhelp-user-manual/auto-disable-inactive-users.md): Enterprise security add-on disabling accounts after an inactivity period, with user type filters and a three-day check cycle.
+- [Authentication](https://docs.clickhelp.com/articles/clickhelp-user-manual/authentication.md): Three login options — native ClickHelp credentials, SSO, and login tokens — for Contributors and Power Readers.
+- [Single Sign-On (SSO)](https://docs.clickhelp.com/articles/clickhelp-user-manual/single-sign-on.md): OpenID Connect setup: adding providers, default login method, multiple identity providers, and the idp URL parameter.
+- [SSO User Matching](https://docs.clickhelp.com/articles/clickhelp-user-manual/sso-user-matching.md): Email address identifies which ClickHelp account an Identity Provider user maps to, plus manual account binding.
+- [Use Google as SSO Provider](https://docs.clickhelp.com/articles/clickhelp-user-manual/use-google-as-sso-provider.md): Registering a Google web application, generating client ID and secret, and wiring them into portal settings.
+- [Use Microsoft Entra ID as SSO Provider](https://docs.clickhelp.com/articles/clickhelp-user-manual/microsoft-entra-id-sso-provider.md): Azure app registration for single- or multi-tenant access, with client secret and tenant ID values.
+- [Use Salesforce as SSO Provider](https://docs.clickhelp.com/articles/clickhelp-user-manual/use-salesforce-as-sso-provider.md): Creating an external client app in Salesforce, setting OAuth scopes, disabling PKCE, and relaxing connected-app policies.
+- [Use a Custom Identity Provider](https://docs.clickhelp.com/articles/clickhelp-user-manual/use-a-custom-identity-provider.md): Implementing your own OpenID Connect provider and adding its endpoint or discovery URLs as a connection.
+- [The Token Login Mechanism](https://docs.clickhelp.com/articles/clickhelp-user-manual/the-token-login-mechanism.md): How URL tokens authenticate Power Readers, which link types support them, licensing, and expiration behavior.
+- [Use Login Token](https://docs.clickhelp.com/articles/clickhelp-user-manual/use-login-token.md): Generating a token through the API and appending it as the t query parameter to restricted links.
+- [Two-Factor Authentication (2FA)](https://docs.clickhelp.com/articles/clickhelp-user-manual/two-factor-authentication-2fa.md): TOTP authenticator codes for Contributor accounts: global settings, per-user setup, reset, and account lockout handling.
+- [Login Through Third-party Software](https://docs.clickhelp.com/articles/clickhelp-user-manual/login-through-third-party-software.md): Redirect flow that logs application users into restricted manuals, and the login-page and app changes required.
+- [Session Control and Expiration](https://docs.clickhelp.com/articles/clickhelp-user-manual/session-control-and-expiration.md): Authentication cookies last 48 hours with sliding renewal; how expired sessions and login tokens interact.
+- [AnswerGenius](https://docs.clickhelp.com/articles/clickhelp-user-manual/answergenius.md): Chatbot that answers reader questions from your docs — enabling the widget, Contributor preview, licensing, and CAPs consumption.
+- [AnswerGenius Customization](https://docs.clickhelp.com/articles/clickhelp-user-manual/answergenius-customization.md): Widget visibility, publication scope, colors and greeting texts, and prompts for persona, terminology, and response style.
+- [Adjust AnswerGenius results](https://docs.clickhelp.com/articles/clickhelp-user-manual/adjust-answergenius-results.md): Fixing vague or missing answers through AI behavior prompts, search tuning, and content changes.
+- [Embed AnswerGenius into Website or Application](https://docs.clickhelp.com/articles/clickhelp-user-manual/embed-answergenius-into-website-or-application.md): Script snippet for the external widget and its separate settings for public publications, appearance, and AI behavior.
+- [Making Your Documentation AI-Friendly](https://docs.clickhelp.com/articles/clickhelp-user-manual/making-your-documentation-ai-friendly.md): What makes a portal readable by AI agents: llms.txt, Markdown output, MCP servers, heading hierarchy, topic length.
+- [Configuring llms.txt for Your Portal](https://docs.clickhelp.com/articles/clickhelp-user-manual/configuring-llms-txt-for-your-portal.md): Where to edit the file in portal settings, the recommended Markdown structure, writing tips, and a sample.
+- [Retrieving Topics as Markdown](https://docs.clickhelp.com/articles/clickhelp-user-manual/retrieving-topics-as-markdown.md): Append .md to a topic URL for plain-text content, plus the Copy Markdown interface option.
+- [Authoring MCP Server](https://docs.clickhelp.com/articles/clickhelp-user-manual/mcp-server.md): Service that lets AI agents read and edit portal content over the Model Context Protocol, with licensing and security details.
+- [Authoring MCP Server Quick Start Guide](https://docs.clickhelp.com/articles/clickhelp-user-manual/authoring-mcp-server-quick-start-guide.md): Walkthrough of one end-to-end task: having an agent find stale topics and refresh them after your approval.
+- [Before You Start](https://docs.clickhelp.com/articles/clickhelp-user-manual/before-you-start.md): Prerequisites: an MCP-capable AI tool, the REST API & MCP add-on, and a dedicated Contributor account for the agent.
+- [Connect Your AI Agent](https://docs.clickhelp.com/articles/clickhelp-user-manual/connect-your-ai-agent.md): Where to find the server endpoint URL in portal settings and how to sign in with the dedicated account.
+- [Complete the Task](https://docs.clickhelp.com/articles/clickhelp-user-manual/complete-the-task.md): Ready-to-use prompts for each step, from listing stale topics to applying a fix and setting a review status.
+- [Connect to Authoring MCP Server](https://docs.clickhelp.com/articles/clickhelp-user-manual/connect-to-mcp-server.md): Setup steps per tool — Claude Desktop, Claude Cloud, Gemini CLI, Codex, Microsoft Copilot — plus endpoint and account prep.
+- [Authoring MCP Server Use Cases](https://docs.clickhelp.com/articles/clickhelp-user-manual/mcp-server-use-cases.md): Practical scenarios: release sync, codebase documentation, style-guide audits, localization checks, import cleanup, and internal knowledge bots.
+- [Authoring MCP Server Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/authoring-mcp-server-reference.md): Read and write tools available to agents, unsupported actions, and rate limits with guidance for hitting them.
+- [Published Docs MCP Server](https://docs.clickhelp.com/articles/clickhelp-user-manual/published-docs-mcp-server.md): Lets readers connect their own agents to your public publications, read-only, with no authentication and no access to drafts.
+- [Set Up Published Docs MCP Server](https://docs.clickhelp.com/articles/clickhelp-user-manual/set-up-published-docs-mcp-server.md): Turning the server on in AI integrations, showing or hiding the Connect with MCP block, and verifying it responds.
+- [Tell Your Readers About Published Docs MCP Server](https://docs.clickhelp.com/articles/clickhelp-user-manual/tell-your-readers-about-published-docs-mcp-server.md): Copy-ready template announcing agent access, what to leave out, and where to place the page in your docs.
+- [Published Docs MCP Server Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/published-docs-mcp-server-reference.md): Read-only tool list scoped to public publications, plus rate limits and what readers notice when limits are hit.
+- [Integrations](https://docs.clickhelp.com/articles/clickhelp-user-manual/integrations.md): Out-of-box connections for analytics, SSO, and commenting, plus Zapier and embed-code options for tools without native support.
+- [Task Automation with Zapier](https://docs.clickhelp.com/articles/clickhelp-user-manual/task-automation-with-zapier.md): How Zaps work, licensing requirements, and the full list of ClickHelp triggers and actions available in Zapier.
+- [Search Engine Optimization (SEO)](https://docs.clickhelp.com/articles/clickhelp-user-manual/search-engine-optimization-seo.md): Which ClickHelp settings affect indexing and search visibility for your portal, and where to configure each.
+- [Webmaster Tools](https://docs.clickhelp.com/articles/clickhelp-user-manual/webmaster-tools.md): Verifying portal ownership in Google Search Console and Bing Webmaster using a meta tag pasted into portal settings.
+- [Documentation Portal Sitemap](https://docs.clickhelp.com/articles/clickhelp-user-manual/documentation-portal-sitemap.md): Auto-generated sitemap and sitemap index files, and how to submit them to Google Search Console and Bing.
+- [Robots.txt](https://docs.clickhelp.com/articles/clickhelp-user-manual/robots-txt.md): Allow, forbid, or custom indexing rules for the portal, with syntax for hiding specific topics from search engines.
+- [Google Analytics](https://docs.clickhelp.com/articles/clickhelp-user-manual/google-analytics.md): Connecting a GA4 property by pasting a Measurement ID; data covers publications only, not Contributor views.
+- [Search Events and Google Analytics](https://docs.clickhelp.com/articles/clickhelp-user-manual/search-events-and-google-analytics.md): Tracking reader search queries through Google Site Search, with the q and p URL parameters and reporting caveats.
+- [Gathering Reader Feedback](https://docs.clickhelp.com/articles/clickhelp-user-manual/gather-reader-feedback.md): Ways to collect end-user opinions in ClickHelp: the feedback widget, GraphComment, and Disqus commenting.
+- [Reader Feedback Widget](https://docs.clickhelp.com/articles/clickhelp-user-manual/the-was-it-helpful-widget.md): Helpful/not-helpful voting in the Reader UI, how it appears in each interface template, and where votes land.
+- [Feedback Widget Settings Reference](https://docs.clickhelp.com/articles/clickhelp-user-manual/feedback-widget-settings-reference.md): Branding options for enabling the widget, negative-feedback details, notification email, and reader email collection.
+- [Set Up Commenting with GraphComment Integration](https://docs.clickhelp.com/articles/clickhelp-user-manual/set-up-commenting-with-graphcomment-integration.md): Signing up for GraphComment, getting the Unique ID, and enabling it in portal or project settings.
+- [Set Up Commenting with Disqus Integration](https://docs.clickhelp.com/articles/clickhelp-user-manual/enable-disqus-commenting.md): Creating a Disqus account, finding your shortname, and enabling comments under published topics.
+- [Global Find and Replace](https://docs.clickhelp.com/articles/clickhelp-user-manual/global-find-and-replace.md): Search and replace text, topic links, and file links across topics, styles, scripts, ToDo items, and TOC nodes.
+- [Finding Content with Regular Expressions and Other Techniques](https://docs.clickhelp.com/articles/clickhelp-user-manual/finding-content-with-regular-expressions-and-other-techniques.md): .NET regex syntax notes and ten worked scenarios, from swapping text for variables to fixing moved image links.
+- [Audit Trail](https://docs.clickhelp.com/articles/clickhelp-user-manual/audit-trail.md): Chronological log of who changed what in the portal, where to open it, and licensing requirements.
+- [Audit Trail Events](https://docs.clickhelp.com/articles/clickhelp-user-manual/audit-trail-events.md): Full list of logged events by category — User, Topic, Project, Portal — with what each one records.
+- [Backing Up Your Data](https://docs.clickhelp.com/articles/clickhelp-user-manual/back-up-your-data.md): Automatic daily backups plus manual options via project backup, export, the API, and Zapier.
+- [Project Backup](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-backup.md): What the ZIP archive is for, translation handling, known limitations, and what changes on re-import.
+- [Back Up a Project](https://docs.clickhelp.com/articles/clickhelp-user-manual/back-up-project.md): Steps to generate an archive from the Projects page and where it lands in File Storage.
+- [Import Project Backup](https://docs.clickhelp.com/articles/clickhelp-user-manual/import-project-backup.md): Import Wizard steps for restoring a backup archive into a new or existing project.
+- [Project Backup Contents](https://docs.clickhelp.com/articles/clickhelp-user-manual/project-backup-contents.md): Files inside the archive: topic HTML, JSON metadata, XLIFF, variables, TOC structure, and dependencies.
+- [Sandbox Portal](https://docs.clickhelp.com/articles/clickhelp-user-manual/sandbox-portal.md): Paid add-on giving a second portal for experiments, with reset settings and on-request sync from production.
+- [Working with Data Tables](https://docs.clickhelp.com/articles/clickhelp-user-manual/working-with-data-tables.md): Sorting, grouping, quick and custom filters, column filters, and export options in dashboard tables.
+- [Password strength](https://docs.clickhelp.com/articles/clickhelp-user-manual/password-strength.md): Configurable rules for length, character classes, and forbidden strings, plus setup link expiry.
+- [IP Allowlist](https://docs.clickhelp.com/articles/clickhelp-user-manual/ip-allowlist.md): Restrict contributor logins and API calls to specified IPv4, IPv6, or CIDR ranges, with proxy handling modes.
+- [Site Management](https://docs.clickhelp.com/articles/clickhelp-user-manual/site-management.md): Settings screen for mapping a custom domain or, with the right license, running several Documentation Sites.
+- [Set Up a Custom Domain Name](https://docs.clickhelp.com/articles/clickhelp-user-manual/set-up-a-custom-domain-name.md): CNAME prerequisites and wizard steps for replacing the default clickhelp.co address, including SSL certificate choice.
+- [Certificate Types](https://docs.clickhelp.com/articles/clickhelp-user-manual/certificate-types.md): Let's Encrypt versus custom SSL compared on cost, renewal, and validity, with expiry notification details.
+- [Update Your SSL Certificate](https://docs.clickhelp.com/articles/clickhelp-user-manual/update-your-ssl-certificate.md): Replacing an expired certificate or switching its type through the Update certificate wizard.
+- [Multi-site Setup](https://docs.clickhelp.com/articles/clickhelp-user-manual/multi-site-setup.md): Beta feature for running several reader-facing sites from one portal: hierarchy, default site, and use cases.
+- [Create Several Sites with Different Content](https://docs.clickhelp.com/articles/clickhelp-user-manual/how-to-create-several-sites.md): Multi-site: end-to-end setup for two sites, with and without shared translations of one source project.
+- [Managing Additional Documentation Sites](https://docs.clickhelp.com/articles/clickhelp-user-manual/managing-sites.md): Multi-site: adding a site with domain and certificate, switching between site settings, and disabling a site.
+- [Site Settings](https://docs.clickhelp.com/articles/clickhelp-user-manual/site-settings.md): Multi-site: which settings are per-site, which are portal-wide, and how they copy when a site is created.
+- [Assign Projects and Publications to Sites](https://docs.clickhelp.com/articles/clickhelp-user-manual/assign-projects-and-publications-to-sites.md): Choosing a site during publishing or in publication settings, plus the default publishing site for a project.
+- [Set up Home Pages for Sites](https://docs.clickhelp.com/articles/clickhelp-user-manual/multi-site-home-pages.md): Multi-site: switching sites in Look & feel settings to build and publish a separate home page for each.
+- [Authentication across Documentation Sites](https://docs.clickhelp.com/articles/clickhelp-user-manual/authentication-across-documentation-sites.md): Per-site cookies mean separate logins; how Contributors, Power Readers, and SSO behave across domains.
+- [Search Configuration in Multi-site Setup](https://docs.clickhelp.com/articles/clickhelp-user-manual/multi-site-search.md): The Search only the current site option and its effect on cross-site and Federated Search results.
+- [AnswerGenius Configuration in Multi-site Setup](https://docs.clickhelp.com/articles/clickhelp-user-manual/multi-site-answergenius-configuration.md): Scoping AI answers to the current site or to all sites, including Federated Search sources.
+- [Multi-site Setup Limitations](https://docs.clickhelp.com/articles/clickhelp-user-manual/multi-site-setup-limitations.md): Boundaries around site deletion, cross-site links, permissions, authentication, email templates, and reporting.
+
+## ClickHelp API
+
+- [ClickHelp API](https://docs.clickhelp.com/articles/clickhelp-user-manual/clickhelp-api.md): Base URLs, basic authentication, response status codes, error body format, and portal-wide rate limits.
+- [Get API Key](https://docs.clickhelp.com/articles/clickhelp-user-manual/get-api-key.md): Generating API credentials in your profile; only Contributor accounts can hold a key.
+- [Uploading files via API](https://docs.clickhelp.com/articles/clickhelp-user-manual/uploading-files-via-api.md): Base64, multipart, and resumable upload methods, with size limits and selection criteria.
+- [API Troubleshooting](https://docs.clickhelp.com/articles/clickhelp-user-manual/api-troubleshooting.md): Diagnosing 401 and 500 responses, case-sensitive values, cURL escaping, and TLS requirements.
+- [ClickHelp REST API v2 — OpenAPI specification](https://docs.clickhelp.com/resources/Storage/clickhelp-user-manual/OpenAPI%20files/clickhelp-api-v2.yaml): Current API version as OpenAPI 3.1 — every endpoint, schema, parameter, example, and auth scheme.
+
+## Subscription and billing
+
+- [Subscription and Billing](https://docs.clickhelp.com/articles/clickhelp-user-manual/subscription-and-billing.md): Orders are processed by PayPro Global, whose customer portal handles cancellations, invoices, and payment methods.
+- [Managing Your Subscription](https://docs.clickhelp.com/articles/clickhelp-user-manual/managing-your-subscription.md): Where to check billing cycle, plan modules, and resource usage, plus upgrade requests and cancellation steps.
+- [Payment and Invoicing](https://docs.clickhelp.com/articles/clickhelp-user-manual/payment-and-invoicing.md): Downloading invoices from PayPro order history, and adding or switching primary cards by subscription status.
+
+## Optional
+
+- [ClickHelp REST API v1 — OpenAPI specification](https://docs.clickhelp.com/resources/Storage/clickhelp-user-manual/OpenAPI%20files/clickhelp-api-v1.yaml): Previous API version as OpenAPI 3.1, kept for existing integrations.
+- [Release Notes](https://docs.clickhelp.com/articles/clickhelp-user-manual/whats-new-in-clickhelp.md)
+- [Release Notes: August 2026](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-august-2026.md)
+- [Release Notes: June 2026](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-june-2026.md)
+- [Release Notes: April 2026](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-april-2026.md)
+- [Release Notes: March 2026](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-march-2026.md)
+- [Release Notes: February 2026](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-february-2026.md)
+- [Release Notes: January 2026](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-january-2026.md)
+- [Release Notes: December 2025](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-december-2025.md)
+- [Release Notes: November 2025](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-november-2025.md)
+- [Release Notes: October 2025 (AnswerGenius Quality)](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-october-2025-answergenius-quality.md)
+- [Release Notes: October 2025](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-october-2025.md)
+- [Release Notes: July 2025](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-july-2025.md)
+- [Release Notes: June 2025](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-june-2025.md)
+- [Release Notes: April 2025](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-april-2025.md)
+- [Release Notes: March 2025](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-march-2025.md)
+- [Release Notes: February 2025](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-february-2025.md)
+- [Release Notes: December 2024](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-december-2024.md)
+- [Release Notes: October 2024](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-october-2024.md)
+- [Release Notes: September 2024](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-september-2024.md)
+- [Release Notes: August 2024](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-august-2024.md)
+- [Release Notes: June 2024](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-june-2024.md)
+- [Release Notes: May 2024](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-may-2024.md)
+- [Release Notes: March 2024](https://docs.clickhelp.com/articles/clickhelp-user-manual/amber-maintenance-update-march-2024.md)
+- [Release Notes: December 2023 — Amber](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-december-2023-amber.md)
+- [Release Notes: April 2023 — Blossom](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-april-2023-blossom.md)
+- [Release Notes: November 2022 — Wave](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-november-2022-wave.md)
+- [Release Notes: July 2022 — Echo](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-july-2022-echo.md)
+- [Release Notes: June 2021 — Rainbow](https://docs.clickhelp.com/articles/clickhelp-user-manual/release-notes-june-2021-rainbow.md)
+- [Release Notes: July 2020 — Gecko](https://docs.clickhelp.com/articles/clickhelp-user-manual/july-2020-gecko.md)
+- [Release Notes: December 2019 — Oasis](https://docs.clickhelp.com/articles/clickhelp-user-manual/december-2019-oasis.md)
+- [Release Notes: March 2019 — Aurora Polaris](https://docs.clickhelp.com/articles/clickhelp-user-manual/march-2019-aurora-polaris.md)
+- [Release Notes: January 2018](https://docs.clickhelp.com/articles/clickhelp-user-manual/whats-new-january-2018.md)
+- [Release Notes: February 2017](https://docs.clickhelp.com/articles/clickhelp-user-manual/february-2017.md)
+- [Release Notes: June 2016](https://docs.clickhelp.com/articles/clickhelp-user-manual/june-2016.md)
+- [Release Notes: October 2015](https://docs.clickhelp.com/articles/clickhelp-user-manual/october-2015.md)
+- [Release Notes: June 2015](https://docs.clickhelp.com/articles/clickhelp-user-manual/june-2015.md)
+- [Release Notes: March 2015](https://docs.clickhelp.com/articles/clickhelp-user-manual/march-2015.md)
+- [Release Notes: January 2015](https://docs.clickhelp.com/articles/clickhelp-user-manual/january-2015.md)
+- [Release Notes: October 2014](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-october-2014.md)
+- [Release Notes: July 2014](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-july-2014.md)
+- [Release Notes: March 2014](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-march-2014.md)
+- [Release Notes: February 2014](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-february-2013.md)
+- [Release Notes: November 2013](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-november-2013.md)
+- [Release Notes: July 2013](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-july-2013.md)
+- [Release Notes: June 2013](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-june-2013.md)
+- [Release Notes: April 2013](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-april-2013.md)
+- [Release Notes: December 2012](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-december-2012.md)
+- [Release Notes: October 2012](https://docs.clickhelp.com/articles/clickhelp-user-manual/version-history-october-2012.md)

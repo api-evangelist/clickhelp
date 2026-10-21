@@ -1,0 +1,14 @@
+generated: '2026-10-20'
+method: searched
+probe: true
+source: https://clickhelp.com/trust/
+url: https://clickhelp.com/trust/
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://clickhelp.com/trust/
+  keywords:
+  - soc 2
+  - trust center
+  - gdpr

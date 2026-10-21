@@ -1,0 +1,24 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://clickhelp.com/online-documentation-tool-pricing/
+sources:
+- https://clickhelp.com/online-documentation-tool-pricing/
+- https://docs.clickhelp.com/articles/clickhelp-user-manual/subscription-and-billing.md
+name: ClickHelp pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Starter
+  price_text: 194 USD a month a year
+  price: 194
+  billing_period: monthly
+- name: Growth
+  price_text: 325 USD a month a year
+  price: 325
+  billing_period: monthly
+- name: Professional
+  price_text: 640 USD a month a year
+  price: 640
+  billing_period: monthly
+docs: https://clickhelp.com/online-documentation-tool-pricing/

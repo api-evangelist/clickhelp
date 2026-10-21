@@ -1,0 +1,16 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/clickhelp/integrations
+- https://n8n.io/integrations/clickhelp/
+- https://composio.dev/toolkits/clickhelp
+- https://monid.ai/tools/clickhelp
+checked:
+- https://composio.dev/toolkits/clickhelp
+- https://monid.ai/tools/clickhelp
+- https://n8n.io/integrations/clickhelp/
+- https://zapier.com/apps/clickhelp/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
